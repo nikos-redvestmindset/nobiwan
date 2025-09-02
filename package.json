@@ -8,26 +8,34 @@
     "start": "next start",
     "lint": "eslint",
     "typecheck": "tsc --noEmit",
-    "supabase:gen:types": "npx --yes supabase@latest gen types typescript --project-id $SUPABASE_PROJECT_ID --schema public > src/lib/supabase/types.ts"
+    "supabase:gen:types": "npx --yes supabase@latest gen types typescript --project-id $SUPABASE_PROJECT_ID --schema public > src/lib/supabase/types.ts",
+    "dev:mastra": "mastra dev --dir src/mastra",
+    "build:mastra": "mastra build --dir src/mastra",
+    "start:mastra": "mastra start --dir src/mastra"
   },
   "dependencies": {
+    "@ai-sdk/openai": "^2.0.23",
+    "@mastra/core": "^0.15.2",
     "@supabase/ssr": "^0.7.0",
     "@supabase/supabase-js": "^2.56.1",
     "next": "15.5.2",
     "pg": "^8.16.3",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
+    "@types/node": "^20.19.11",
     "@types/pg": "^8.15.5",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "15.5.2",
+    "mastra": "^0.11.2",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
   }
 }
