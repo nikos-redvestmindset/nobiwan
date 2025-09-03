@@ -1,0 +1,624 @@
+{
+  "categories": {
+    "description": "Table categories.",
+    "fields": [
+      {
+        "name": "category_id",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'category_id' of type smallint in categories."
+      },
+      {
+        "name": "category_name",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'category_name' of type character in categories."
+      },
+      {
+        "name": "description",
+        "type": "text",
+        "example_values": [],
+        "description": "Column 'description' of type text in categories."
+      },
+      {
+        "name": "picture",
+        "type": "bytea",
+        "example_values": [],
+        "description": "Column 'picture' of type bytea in categories."
+      }
+    ]
+  },
+  "customer_customer_demo": {
+    "description": "Table customer_customer_demo.",
+    "fields": [
+      {
+        "name": "customer_id",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'customer_id' of type character in customer_customer_demo."
+      },
+      {
+        "name": "customer_type_id",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'customer_type_id' of type character in customer_customer_demo."
+      }
+    ]
+  },
+  "customer_demographics": {
+    "description": "Table customer_demographics.",
+    "fields": [
+      {
+        "name": "customer_type_id",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'customer_type_id' of type character in customer_demographics."
+      },
+      {
+        "name": "customer_desc",
+        "type": "text",
+        "example_values": [],
+        "description": "Column 'customer_desc' of type text in customer_demographics."
+      }
+    ]
+  },
+  "customers": {
+    "description": "Table customers.",
+    "fields": [
+      {
+        "name": "customer_id",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'customer_id' of type character in customers."
+      },
+      {
+        "name": "company_name",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'company_name' of type character in customers."
+      },
+      {
+        "name": "contact_name",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'contact_name' of type character in customers."
+      },
+      {
+        "name": "contact_title",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'contact_title' of type character in customers."
+      },
+      {
+        "name": "address",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'address' of type character in customers."
+      },
+      {
+        "name": "city",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'city' of type character in customers."
+      },
+      {
+        "name": "region",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'region' of type character in customers."
+      },
+      {
+        "name": "postal_code",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'postal_code' of type character in customers."
+      },
+      {
+        "name": "country",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'country' of type character in customers."
+      },
+      {
+        "name": "phone",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'phone' of type character in customers."
+      },
+      {
+        "name": "fax",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'fax' of type character in customers."
+      }
+    ]
+  },
+  "employees": {
+    "description": "Table employees.",
+    "fields": [
+      {
+        "name": "employee_id",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'employee_id' of type smallint in employees."
+      },
+      {
+        "name": "last_name",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'last_name' of type character in employees."
+      },
+      {
+        "name": "first_name",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'first_name' of type character in employees."
+      },
+      {
+        "name": "title",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'title' of type character in employees."
+      },
+      {
+        "name": "title_of_courtesy",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'title_of_courtesy' of type character in employees."
+      },
+      {
+        "name": "birth_date",
+        "type": "date",
+        "example_values": [],
+        "description": "Column 'birth_date' of type date in employees."
+      },
+      {
+        "name": "hire_date",
+        "type": "date",
+        "example_values": [],
+        "description": "Column 'hire_date' of type date in employees."
+      },
+      {
+        "name": "address",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'address' of type character in employees."
+      },
+      {
+        "name": "city",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'city' of type character in employees."
+      },
+      {
+        "name": "region",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'region' of type character in employees."
+      },
+      {
+        "name": "postal_code",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'postal_code' of type character in employees."
+      },
+      {
+        "name": "country",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'country' of type character in employees."
+      },
+      {
+        "name": "home_phone",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'home_phone' of type character in employees."
+      },
+      {
+        "name": "extension",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'extension' of type character in employees."
+      },
+      {
+        "name": "photo",
+        "type": "bytea",
+        "example_values": [],
+        "description": "Column 'photo' of type bytea in employees."
+      },
+      {
+        "name": "notes",
+        "type": "text",
+        "example_values": [],
+        "description": "Column 'notes' of type text in employees."
+      },
+      {
+        "name": "reports_to",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'reports_to' of type smallint in employees."
+      },
+      {
+        "name": "photo_path",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'photo_path' of type character in employees."
+      }
+    ]
+  },
+  "employee_territories": {
+    "description": "Table employee_territories.",
+    "fields": [
+      {
+        "name": "employee_id",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'employee_id' of type smallint in employee_territories."
+      },
+      {
+        "name": "territory_id",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'territory_id' of type character in employee_territories."
+      }
+    ]
+  },
+  "order_details": {
+    "description": "Table order_details.",
+    "fields": [
+      {
+        "name": "order_id",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'order_id' of type smallint in order_details."
+      },
+      {
+        "name": "product_id",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'product_id' of type smallint in order_details."
+      },
+      {
+        "name": "unit_price",
+        "type": "real",
+        "example_values": [],
+        "description": "Column 'unit_price' of type real in order_details."
+      },
+      {
+        "name": "quantity",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'quantity' of type smallint in order_details."
+      },
+      {
+        "name": "discount",
+        "type": "real",
+        "example_values": [],
+        "description": "Column 'discount' of type real in order_details."
+      }
+    ]
+  },
+  "orders": {
+    "description": "Table orders.",
+    "fields": [
+      {
+        "name": "order_id",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'order_id' of type smallint in orders."
+      },
+      {
+        "name": "customer_id",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'customer_id' of type character in orders."
+      },
+      {
+        "name": "employee_id",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'employee_id' of type smallint in orders."
+      },
+      {
+        "name": "order_date",
+        "type": "date",
+        "example_values": [],
+        "description": "Column 'order_date' of type date in orders."
+      },
+      {
+        "name": "required_date",
+        "type": "date",
+        "example_values": [],
+        "description": "Column 'required_date' of type date in orders."
+      },
+      {
+        "name": "shipped_date",
+        "type": "date",
+        "example_values": [],
+        "description": "Column 'shipped_date' of type date in orders."
+      },
+      {
+        "name": "ship_via",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'ship_via' of type smallint in orders."
+      },
+      {
+        "name": "freight",
+        "type": "real",
+        "example_values": [],
+        "description": "Column 'freight' of type real in orders."
+      },
+      {
+        "name": "ship_name",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'ship_name' of type character in orders."
+      },
+      {
+        "name": "ship_address",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'ship_address' of type character in orders."
+      },
+      {
+        "name": "ship_city",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'ship_city' of type character in orders."
+      },
+      {
+        "name": "ship_region",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'ship_region' of type character in orders."
+      },
+      {
+        "name": "ship_postal_code",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'ship_postal_code' of type character in orders."
+      },
+      {
+        "name": "ship_country",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'ship_country' of type character in orders."
+      }
+    ]
+  },
+  "products": {
+    "description": "Table products.",
+    "fields": [
+      {
+        "name": "product_id",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'product_id' of type smallint in products."
+      },
+      {
+        "name": "product_name",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'product_name' of type character in products."
+      },
+      {
+        "name": "supplier_id",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'supplier_id' of type smallint in products."
+      },
+      {
+        "name": "category_id",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'category_id' of type smallint in products."
+      },
+      {
+        "name": "quantity_per_unit",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'quantity_per_unit' of type character in products."
+      },
+      {
+        "name": "unit_price",
+        "type": "real",
+        "example_values": [],
+        "description": "Column 'unit_price' of type real in products."
+      },
+      {
+        "name": "units_in_stock",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'units_in_stock' of type smallint in products."
+      },
+      {
+        "name": "units_on_order",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'units_on_order' of type smallint in products."
+      },
+      {
+        "name": "reorder_level",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'reorder_level' of type smallint in products."
+      },
+      {
+        "name": "discontinued",
+        "type": "integer",
+        "example_values": [],
+        "description": "Column 'discontinued' of type integer in products."
+      }
+    ]
+  },
+  "region": {
+    "description": "Table region.",
+    "fields": [
+      {
+        "name": "region_id",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'region_id' of type smallint in region."
+      },
+      {
+        "name": "region_description",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'region_description' of type character in region."
+      }
+    ]
+  },
+  "shippers": {
+    "description": "Table shippers.",
+    "fields": [
+      {
+        "name": "shipper_id",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'shipper_id' of type smallint in shippers."
+      },
+      {
+        "name": "company_name",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'company_name' of type character in shippers."
+      },
+      {
+        "name": "phone",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'phone' of type character in shippers."
+      }
+    ]
+  },
+  "suppliers": {
+    "description": "Table suppliers.",
+    "fields": [
+      {
+        "name": "supplier_id",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'supplier_id' of type smallint in suppliers."
+      },
+      {
+        "name": "company_name",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'company_name' of type character in suppliers."
+      },
+      {
+        "name": "contact_name",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'contact_name' of type character in suppliers."
+      },
+      {
+        "name": "contact_title",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'contact_title' of type character in suppliers."
+      },
+      {
+        "name": "address",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'address' of type character in suppliers."
+      },
+      {
+        "name": "city",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'city' of type character in suppliers."
+      },
+      {
+        "name": "region",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'region' of type character in suppliers."
+      },
+      {
+        "name": "postal_code",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'postal_code' of type character in suppliers."
+      },
+      {
+        "name": "country",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'country' of type character in suppliers."
+      },
+      {
+        "name": "phone",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'phone' of type character in suppliers."
+      },
+      {
+        "name": "fax",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'fax' of type character in suppliers."
+      },
+      {
+        "name": "homepage",
+        "type": "text",
+        "example_values": [],
+        "description": "Column 'homepage' of type text in suppliers."
+      }
+    ]
+  },
+  "territories": {
+    "description": "Table territories.",
+    "fields": [
+      {
+        "name": "territory_id",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'territory_id' of type character in territories."
+      },
+      {
+        "name": "territory_description",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'territory_description' of type character in territories."
+      },
+      {
+        "name": "region_id",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'region_id' of type smallint in territories."
+      }
+    ]
+  },
+  "us_states": {
+    "description": "Table us_states.",
+    "fields": [
+      {
+        "name": "state_id",
+        "type": "smallint",
+        "example_values": [],
+        "description": "Column 'state_id' of type smallint in us_states."
+      },
+      {
+        "name": "state_name",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'state_name' of type character in us_states."
+      },
+      {
+        "name": "state_abbr",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'state_abbr' of type character in us_states."
+      },
+      {
+        "name": "state_region",
+        "type": "character",
+        "example_values": [],
+        "description": "Column 'state_region' of type character in us_states."
+      }
+    ]
+  }
+}

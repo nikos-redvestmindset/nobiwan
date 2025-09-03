@@ -1,8 +1,9 @@
 import { Mastra } from "@mastra/core";
 
-import { sqlGeneratorAgent } from "./agents/sql-generator";
+import { sqlGenBaseAgent } from "./agents/sql-gen-base";
 import { sqlExecutorAgent } from "./agents/sql-executor";
+import { sqlWithSchemaAgent } from "./agents/sql-gen-with-schema";
 
 export const mastra = new Mastra({
-  agents: { sqlGeneratorAgent, sqlExecutorAgent },
+  agents: { sqlGenBaseAgent, sqlWithSchemaAgent, sqlExecutorAgent },
 });
