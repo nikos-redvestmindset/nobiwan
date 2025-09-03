@@ -1,0 +1,152 @@
+{
+    "categories": {
+      "description": "Product categories, grouping products into types (e.g., Beverages, Condiments).",
+      "fields": [
+        {
+          "name": "category_id",
+          "type": "smallint",
+          "role": "primary_key",
+          "example_values": ["1","2","3","4","5","6","7","8"],
+          "description": "Category identifier."
+        },
+        {
+          "name": "category_name",
+          "type": "character",
+          "example_values": ["Beverages","Condiments","Confections","Dairy Products","Grains/Cereals","Meat/Poultry","Produce","Seafood"],
+          "description": "Category name."
+        },
+        {
+          "name": "description",
+          "type": "text",
+          "example_values": [
+            "Soft drinks, coffees, teas, beers, and ales",
+            "Sweet and savory sauces, relishes, spreads, and seasonings",
+            "Desserts, candies, and sweet breads",
+            "Cheeses",
+            "Breads, crackers, pasta, and cereal",
+            "Prepared meats",
+            "Dried fruit and bean curd",
+            "Seaweed and fish"
+          ],
+          "description": "Category description."
+        }
+      ]
+    },
+    "customers": {
+      "description": "Companies that buy products, with contact and address info.",
+      "fields": [
+        {
+          "name": "customer_id",
+          "type": "character",
+          "role": "primary_key",
+          "example_values": ["ALFKI","ANATR","ANTON","AROUT","BERGS","BLAUS","BLONP","BOLID","BONAP","BOTTM"],
+          "description": "Customer identifier."
+        },
+        {
+          "name": "company_name",
+          "type": "character",
+          "example_values": [
+            "Alfreds Futterkiste",
+            "Ana Trujillo Emparedados y helados",
+            "Antonio Moreno Taquería",
+            "Around the Horn",
+            "Berglunds snabbköp",
+            "Blauer See Delikatessen",
+            "Blondel père et fils",
+            "Bólido Comidas preparadas",
+            "Bon app'",
+            "Bottom-Dollar Markets"
+          ],
+          "description": "Company name."
+        },
+        {
+          "name": "city",
+          "type": "character",
+          "example_values": [
+            "Berlin",
+            "México D.F.",
+            "London",
+            "Luleå",
+            "Mannheim",
+            "Strasbourg",
+            "Madrid",
+            "Marseille",
+            "Tsawassen"
+          ],
+          "description": "City where customer is based."
+        },
+        {
+          "name": "country",
+          "type": "character",
+          "example_values": [
+            "Germany",
+            "Mexico",
+            "UK",
+            "Sweden",
+            "France",
+            "Spain",
+            "Canada"
+          ],
+          "description": "Country of the customer."
+        }
+      ]
+    },
+    "employees": {
+      "description": "Employees of the company, including managers and hierarchy.",
+      "fields": [
+        {
+          "name": "first_name",
+          "type": "character",
+          "example_values": ["Nancy","Andrew","Janet","Margaret","Steven","Michael","Robert","Laura","Anne"],
+          "description": "Employee first name."
+        },
+        {
+          "name": "last_name",
+          "type": "character",
+          "example_values": ["Davolio","Fuller","Leverling","Peacock","Buchanan","Suyama","King","Callahan","Dodsworth"],
+          "description": "Employee last name."
+        },
+        {
+          "name": "title",
+          "type": "character",
+          "example_values": [
+            "Sales Representative",
+            "Vice President, Sales",
+            "Sales Manager",
+            "Inside Sales Coordinator"
+          ],
+          "description": "Job title of the employee."
+        },
+        {
+          "name": "country",
+          "type": "character",
+          "example_values": ["USA","UK"],
+          "description": "Country where employee is based."
+        }
+      ]
+    },
+    "orders": {
+      "description": "Orders placed by customers with sales, shipping, and dates.",
+      "fields": [
+        {
+          "name": "order_id",
+          "type": "smallint",
+          "role": "primary_key",
+          "example_values": ["10248","10249","10250","10251","10252","10253","10254","10255","10256","10257"],
+          "description": "Unique order identifier."
+        },
+        {
+          "name": "order_date",
+          "type": "date",
+          "example_values": ["1996-07-04","1996-07-05","1996-07-08","1996-07-09","1996-07-10","1996-07-11","1996-07-12","1996-07-15","1996-07-16"],
+          "description": "Date the order was placed."
+        },
+        {
+          "name": "ship_country",
+          "type": "character",
+          "example_values": ["France","Germany","Brazil","Belgium","Switzerland","Venezuela"],
+          "description": "Country where the order was shipped."
+        }
+      ]
+    }
+  }
